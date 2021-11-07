@@ -7,3 +7,11 @@ func Solution(word string) string {
 	}
 	return string(runes)
 }
+
+func Solutionbestpractice(word string) string {
+	var result = ""
+	for _, c := range word {
+		result = string(c) + result
+	}
+	return result
+}
