@@ -8,5 +8,5 @@ import (
 
 func main() {
 	fmt.Println(nbyear.NbYear(1500, 5, 100, 5000))
-	fmt.Println(reversestrings("test"))
+	fmt.Println(reversestrings.Solution("test"))
 }
