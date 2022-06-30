@@ -4,7 +4,7 @@
 
 package binsearch
 
-func search(nums []int, target int) int {
+func Search(nums []int, target int) int {
 	left := 0
 	right := len(nums) - 1
 	for left <= right {
